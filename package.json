@@ -1,0 +1,19 @@
+{
+  "name": "npm_sandbox1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch --update --style=compressed css:css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "onchange": "^7.1.0",
+    "sass": "^1.49.11"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
