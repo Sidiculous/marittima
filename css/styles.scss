@@ -44,7 +44,7 @@ img {
 //-----------------BackgroundVideo---------//
 .vidbox{
   min-height: 50vh;
-  height: 60vh;
+  height: 40vh;
 }
 
 .video1{
@@ -55,13 +55,22 @@ img {
 }
 
 .imgbox{
-  height: 65vh;
+  height: 54vh;
 }
 
 .video_center_logo{
   height: 15vh;
   width: auto;
   border-radius: 1000px;
+}
+
+.container_pic_wood{
+  background-image: url("../images/wood.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 40vh;
 }
 
 //MENU STYLING
