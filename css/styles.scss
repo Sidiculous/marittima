@@ -6,6 +6,7 @@
 
 body {
   margin: 0; /* Ingen kanter i siden af browser */
+  background-color: #DFD0B0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,13 +42,9 @@ img {
 
 //FORSIDE STYLING
 //-----------------BackgroundVideo---------//
-.imgbox{
-  height: 90vh;
-}
-
-.socialbox{
-  top: 82vh;
-  right: 1vw;
+.vidbox{
+  min-height: 50vh;
+  height: 60vh;
 }
 
 .video1{
@@ -56,11 +53,16 @@ img {
   width: 100%;
   height: 100%;
 }
-.vidbox{
-  min-height: 50vh;
-  height: 90vh;
+
+.imgbox{
+  height: 65vh;
 }
 
+.video_center_logo{
+  height: 15vh;
+  width: auto;
+  border-radius: 1000px;
+}
 
 //MENU STYLING
 
