@@ -1,7 +1,6 @@
 {
   "name": "npm_sandbox1",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch --update --style=compressed css:css"
@@ -15,5 +14,14 @@
   },
   "dependencies": {
     "bootstrap": "^5.1.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sidiculous/marittima.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sidiculous/marittima/issues"
+  },
+  "homepage": "https://github.com/Sidiculous/marittima#readme",
+  "description": ""
 }
