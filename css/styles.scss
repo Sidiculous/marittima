@@ -48,6 +48,49 @@ img {
 
 
 //BEGIVENHEDER STYLING
+.container_background{
+  background-color: #dfd0b0;
+  height: 30vh ;
+}
+
+.container_treebg{
+
+  background-image: url("../images/pexels-pixabay-301378.jpg");
+  height: 40vh;
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container_treebg2 {
+  background-image: url("../images/pexels-pixabay-301378.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container_infobox{
+  background-color: #1c1a19;
+  border-radius: 30px;
+}
+.container_opmærksomtekst{
+  color: white;
+}
+.container_fillertekst{
+  color: white;
+}
+.container_button{
+  background-color: #dfd0b0;
+  height: 35px;
+  width: 70px;
+}
+.container_button:hover{
+  background-color: #ff29c2;
+}
+.container_billede{
+  height: auto;
+  width: 200px;
+}
+
 
 
 
