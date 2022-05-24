@@ -71,15 +71,15 @@ img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 600px;
+  min-height: 400px;
 }
 
 .container_pic_wood_repeated{
   background-image: url("../images/wood.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: repeat;
-  min-height: 600px;
+  width: 100%;
 }
 
 .resize_carousel_pic{
@@ -160,4 +160,24 @@ img {
 .div_button{
   color: white;
   text-decoration: none;
+}
+
+
+//Media-queries
+@media only screen and (min-width: 480px){
+  .container_pic_wood{
+    min-height: 500px;
+  }
+}
+
+@media only screen and (min-width: 600px){
+  .container_pic_wood{
+    min-height: 550px;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .container_pic_wood{
+    min-height: 600px;
+  }
 }
