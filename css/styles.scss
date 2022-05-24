@@ -64,14 +64,64 @@ img {
   border-radius: 1000px;
 }
 
+//------------------Carousel---------------//
+
 .container_pic_wood{
   background-image: url("../images/wood.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: auto;
-  height: 40vh;
+  min-height: 600px;
 }
+
+.container_pic_wood_repeated{
+  background-image: url("../images/wood.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  min-height: 600px;
+}
+
+.resize_carousel_pic{
+  width: 100vw;
+  max-height: 500px;
+
+}
+
+.carousel-control-prev{
+  width: 7%;
+}
+.carousel-control-next{
+  width: 7%;
+}
+
+.carousel-caption{
+  top: 10%;
+  bottom: 0;
+}
+.custom-font-size-xs{
+  font-size: 0.55rem;
+}
+
+.rounded-custom{
+  border-radius: 30px;
+}
+
+.container_pic_google-maps{
+  width: 250px;
+  height: 250px;
+}
+.cta-phone{
+  background-color: #b3a381;
+  border: none;
+
+}
+.cta-phone-text{
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+}
+
 
 //MENU STYLING
 
