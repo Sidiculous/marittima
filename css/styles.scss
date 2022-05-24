@@ -6,6 +6,8 @@
 
 body {
   margin: 0; /* Ingen kanter i siden af browser */
+  background-color: #DFD0B0;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,6 +47,34 @@ img {
 
 //MENU STYLING
 
+.Box1{
+  background-color: #1C1A19;
+  border-radius: 25px;
+}
+.lille_tekst{
+  font-family: "Poppins Light";
+}
+.BoxTitel{
+  font-size: 70px;
+  font-family: Poppins Regular;
+}
+.gap100{
+  padding: 70px 0px;
+}
+.box1{
+  background-color: #1C1A19;
+
+}
+.wood-bg{
+  background-image: url("../images/pexels-pixabay-301378.jpg");
+  height: 2000px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h2{
+  font-size: 45px;
+}
 
 
 //BEGIVENHEDER STYLING
