@@ -28,8 +28,57 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<!-- Her skal sidens indhold ligge -->
+<!--HEADER-->
+<div class="container-fluid bg-light">
+
+    <div class="row navbar align-items-center">
+
+        <!--LOGO-->
+        <div class="col-6 col-lg-3">
+            <a href="index.html">
+                <img src="images/logo_navn.png" class="header_logo" alt="Vinoteque Marittima">
+            </a>
+        </div>
+
+        <!--BURGERMENU - MOBIL & TABLET-->
+        <div class="col-6 d-lg-none">
+            <div class="burger my-auto">
+                <img src="images/bars-solid.svg" alt="Burgermenu" class="toggle burger_icon float-end me-3">
+            </div>
+        </div>
+        <div class="nav col-12 d-lg-none">
+            <div class="row text-center">
+                <div class="col-12 p-3"><a href="menu.html" class="nav_text">MENU</a></div>
+                <div class="col-12 p-3"><a href="begivenheder.html" class="nav_text">BEGIVENHEDER</a></div>
+                <div class="col-12 p-3"><a href="selskabslokaler.html" class="nav_text  nav_current">SELSKABSLOKALER</a></div>
+                <div class="col-12 p-3"><a href="om_os.html" class="nav_text">OM OS</a></div>
+            </div>
+        </div>
+
+        <!--NAVBAR - DESKTOP-->
+        <div class="col-lg-8 d-none d-lg-block">
+            <div class="row justify-content-end text-center text-lg-start">
+                <div class="col-lg-auto p-3"><a href="menu.html" class="nav_text">MENU</a></div>
+                <div class="col-lg-auto p-3"><a href="begivenheder.html" class="nav_text">BEGIVENHEDER</a></div>
+                <div class="col-lg-auto p-3"><a href="selskabslokaler.html" class="nav_text nav_current">SELSKABSLOKALER</a></div>
+                <div class="col-lg-auto p-3 pe-lg-5"><a href="om_os.html" class="nav_text">OM OS</a></div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--JAVASCRIPT TIL BURGERMENUEN-->
+    <script>
+        const toggle = document.querySelector('.toggle');
+        const nav = document.querySelector('.nav');
+        toggle.addEventListener('click', () => nav.classList.toggle('show'));
+    </script>
 </body>
 </html>
