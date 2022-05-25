@@ -38,6 +38,11 @@ img {
 
 //OVERORDNET STYLING
 
+//Footer
+.footer_logo{
+  height: auto;
+  width: 250px;
+}
 
 
 //FORSIDE STYLING
@@ -146,11 +151,9 @@ img {
 
 .wood_bg{
   background-image: url("../images/wood.jpg");
-}
-
-.wood_bg_space{
-  background-image: url("../images/wood.jpg");
-  height: 10vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: repeat;
 }
 
 .bg_space{
@@ -159,7 +162,10 @@ img {
 
 .text_decoration_none{
   text-decoration: none;
+  color: white;
 }
+
+
 
 
 //Media-queries
