@@ -166,6 +166,15 @@ img {
 
 
 //MENU STYLING
+.overskrift_stor1{
+  font-family: Poppins, SansSerif;
+}
+
+.overskrift_stor{
+  font-family: Poppins, SansSerif;
+  font-size: 40px;
+}
+
 .lille_tekst{
   font-family: "Poppins Light";
 }
@@ -183,7 +192,7 @@ img {
 }
 .wood-bg{
   background-image: url("../images/pexels-pixabay-301378.jpg");
-  height: 2000px;
+  height: 2200px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -192,10 +201,21 @@ h2_tekst{
   font-size: 45px;
 }
 .img{
-  filter: drop-shadow(0px 10px 30px #090607);
+  filter: drop-shadow(0px 10px 60px #090607);
 }
 
 @media screen and (min-width: 992px){
+
+  .wood-bg{
+    background-image: url("../images/pexels-pixabay-301378.jpg");
+    height: 1300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .overskrift_stor{
+    font-size: 40px;
+  }
   .lille_boks1{
     font-size: 20px;
   }
@@ -207,6 +227,18 @@ h2_tekst{
   }
 }
 @media screen and (min-width: 1400px){
+  .wood-bg{
+    background-image: url("../images/pexels-pixabay-301378.jpg");
+    height: 1600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .overskrift_stor{
+    font-size: 45px;
+  }
+
   .lille_boks1{
     font-size: 25px;
   }
@@ -217,6 +249,7 @@ h2_tekst{
     font-size: 25px;
   }
 }
+
 
 
 
