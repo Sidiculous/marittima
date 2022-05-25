@@ -47,10 +47,9 @@ img {
 
 //MENU STYLING
 
-.Box1{
-  background-color: #1C1A19;
-  border-radius: 25px;
-}
+
+
+
 .lille_tekst{
   font-family: "Poppins Light";
 }
@@ -63,6 +62,7 @@ img {
 }
 .box1{
   background-color: #1C1A19;
+  border-radius: 25px;
 
 }
 .wood-bg{
@@ -72,9 +72,36 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
 }
-h2{
+h2_tekst{
   font-size: 45px;
 }
+.img{
+  filter: drop-shadow(0px 10px 30px #090607);
+}
+
+@media screen and (min-width: 992px){
+  .lille_boks1{
+    font-size: 20px;
+  }
+  .lille_boks2 {
+    font-size: 20px;
+  }
+  .lille_boks3{
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1400px){
+  .lille_boks1{
+    font-size: 25px;
+  }
+  .lille_boks2 {
+    font-size: 25px;
+  }
+  .lille_boks3{
+    font-size: 25px;
+  }
+}
+
 
 
 //BEGIVENHEDER STYLING
