@@ -113,6 +113,7 @@ img {
   height: 40vh;
 }
 
+
 //MENU STYLING
 
 
@@ -122,7 +123,20 @@ img {
 
 
 //SELSKABSLOKALER STYLING
+.selskabslokaler_carousel1{
+  height: auto
+}
 
+.selskabslokaler_carousel_img{
+  height: 50vh;
+  width: auto;
+  border: 2px solid #fff;
+  box-shadow: 5px 5px 5px #000;
+}
+
+.selskabslokaler_carousel_tekst{
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
 
 
 //OM OS STYLING

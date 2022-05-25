@@ -69,10 +69,64 @@
 
 </div>
 
+<!--INDHOLD-->
+<h1 class="my-5 text-center">Selskabslokaler</h1>
 
+    <!--CAROUSEL 1-->
+    <div class="container-fluid container_pic_wood selskabslokaler_carousel1">
 
+        <div id="carouselExampleCaptions" class="carousel slide py-5" data-bs-ride="carousel">
 
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+            <!--CAROUSEL INDICATORS-->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <!--CAROUSEL INDHOLD-->
+            <div class="carousel-inner">
+
+                <div class="carousel-item active mb-3">
+                    <img src="images/ugens_vin.png" class="d-block mx-auto selskabslokaler_carousel_img" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="selskabslokaler_carousel_tekst">First slide label</h5>
+                        <p class="selskabslokaler_carousel_tekst">Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item mb-3">
+                    <img src="images/marittima_front_pic.JPG" class="d-block mx-auto selskabslokaler_carousel_img" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="selskabslokaler_carousel_tekst">Second slide label</h5>
+                        <p class="selskabslokaler_carousel_tekst">Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item mb-3">
+                    <img src="images/marittima_ship.jpg" class="d-block mx-auto selskabslokaler_carousel_img" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="selskabslokaler_carousel_tekst">Third slide label</h5>
+                        <p class="selskabslokaler_carousel_tekst">Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--CAROUSEL KNAPPER-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+
+    </div>
+
 
     <!--JAVASCRIPT TIL BURGERMENUEN-->
     <script>
@@ -80,5 +134,8 @@
         const nav = document.querySelector('.nav');
         toggle.addEventListener('click', () => nav.classList.toggle('show'));
     </script>
+
+    <!--BOOTSTRAP-->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
