@@ -158,22 +158,25 @@
     <div class="container-fluid">
         <div class="row bg-boxColor text-white text-center p-5">
 
-            <a class="text_decoration_none text-white" href="#top">Gå til toppen <i class="fas fa-arrow-up"></i></a>
+            <a class="text_decoration_none text-white col-12" href="#top">Gå til toppen <i class="fas fa-arrow-up"></i></a>
 
-            <a class="py-4 footer_logo mx-auto" href="index.html">
+            <a class="py-4 footer_logo mx-auto col-12" href="index.html">
                 <img src="images/logo_marittima_text_white.png" alt="Marittima logo">
             </a>
 
-            <a class="text_decoration_none text-white" href="mailto:m@rius.dk"><i class="fas fa-envelope"></i> m@rius.dk</a>
+            <div class="row align-items-center">
+                <a class="text_decoration_none text-white col-lg-4" href="mailto:m@rius.dk"><i class="fas fa-envelope"></i> m@rius.dk</a>
 
-            <a class="text_decoration_none text-white col-12 py-2" href="tel:+4554850338"><i class="fas fa-phone"></i> +45 54 85 03 38</a>
+                <a class="text_decoration_none text-white py-2 col-lg-4" href="tel:+4554850338"><i class="fas fa-phone"></i> +45 54 85 03 38</a>
 
-            <!-- Dette link skal linke til Marittimas Facebookside, når Jes opretter den -->
-            <a class="text_decoration_none text-white col-12" href="https://www.facebook.com/marius.mortensen.eftf" target="_blank">
-                <i class="fa-brands fa-facebook"></i> facebook.com/marittima</a>
+                <!-- Dette link skal linke til Marittimas Facebookside, når Jes opretter den -->
+                <a class="text_decoration_none text-white col-lg-4" href="https://www.facebook.com/marius.mortensen.eftf" target="_blank">
+                    <i class="fa-brands fa-facebook"></i> facebook.com/marittima</a>
+            </div>
 
         </div>
     </div>
+
 
     <!--JAVASCRIPT TIL BURGERMENUEN-->
     <script>
@@ -181,6 +184,7 @@
         const nav = document.querySelector('.nav');
         toggle.addEventListener('click', () => nav.classList.toggle('show'));
     </script>
+
 
     <!--BOOTSTRAP-->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
