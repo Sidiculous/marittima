@@ -7,6 +7,7 @@
 body {
   margin: 0; /* Ingen kanter i siden af browser */
   background-color: #DFD0B0;
+  font-family: Poppins, SansSerif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -149,7 +150,7 @@ img {
 .custom-font-size-xs{
   font-size: 0.55rem;
 }
-
+//Round picture//
 .rounded-custom{
   border-radius: 30px;
 }
@@ -162,7 +163,6 @@ img {
 .cta-phone{
   background-color: #b3a381;
   border: none;
-
 }
 .cta-phone-text{
   text-decoration: none;
@@ -176,6 +176,7 @@ img {
 
 
 //MENU STYLING
+
 .overskrift_stor1{
   font-family: Poppins, SansSerif;
 }
@@ -200,29 +201,52 @@ img {
   border-radius: 25px;
 
 }
+
+.pic-1{
+  border-radius: 25px;
+}
 .wood-bg{
-  background-image: url("../images/pexels-pixabay-301378.jpg");
-  height: 2200px;
+  background-image: url("../images/wood.jpg");
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: repeat;
+  width: 100%;
 }
 h2_tekst{
   font-size: 45px;
 }
-.img{
+.img1{
   filter: drop-shadow(0px 10px 60px #090607);
+  object-fit: cover;
+}
+.img2{
+  filter: drop-shadow(0px 10px 60px #090607);
+  object-fit: cover;
+}
+.img3{
+  filter: drop-shadow(0px 10px 60px #090607);
+  object-fit: cover;
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+  .img1{
+    position: relative;
+    top: 55px;
+  }
+  .img2{
+    position: relative;
+    top: 30px;
+  }
+
 }
 
-@media screen and (min-width: 992px){
 
-  .wood-bg{
-    background-image: url("../images/pexels-pixabay-301378.jpg");
-    height: 1300px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+@media screen and (min-width: 992px) and (max-width: 1199px){
+
+  .img1{
+    position: relative;
+    top: 40px;
   }
+
   .overskrift_stor{
     font-size: 40px;
   }
@@ -237,13 +261,6 @@ h2_tekst{
   }
 }
 @media screen and (min-width: 1400px){
-  .wood-bg{
-    background-image: url("../images/pexels-pixabay-301378.jpg");
-    height: 1600px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
 
   .overskrift_stor{
     font-size: 45px;
@@ -494,13 +511,24 @@ font-size: 1.1rem;
   height: 10vh;
 }
 
+.direction_reverse{
+  flex-direction: row-reverse;
+}
+
 .text_decoration_none{
   text-decoration: none;
+}
+
+.border_none{
+  border: none;
+}
+
+.cta_btn{
   color: white;
 }
 
-.direction_reverse{
-  flex-direction: row-reverse;
+.cta_btn:hover{
+  color: rgb(116,14,38);
 }
 
 
