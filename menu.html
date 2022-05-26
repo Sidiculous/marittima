@@ -90,9 +90,10 @@
     </div>
 </div>
 
-<!-- -->
+<!-- Dette her det generelle indhold på siden -->
 <section>
     <div class="wood-bg container-fluid">
+<!-- Tekstboks 1 -->
             <div class="container pt-5">
                 <div class="row">
                     <div class=" col-md-6 box1 text-white mt-3">
@@ -103,12 +104,14 @@
                             er første prioritet hos os, og det ses når man går ombord
                             og udforsker det store vinkort</p>
                     </div>
+<!-- billede 1 -->
                     <div class="col-md-6 mt-3 mb-1 img1">
                         <img class="pic-1" src="images/vin.JPG">
                     </div>
                 </div>
             </div>
         <br><br>
+<!-- Tekstboks 2 -->
             <div class="container">
                 <div class="row d-flex flex-row-reverse">
                     <div class="col-md-6 box1 text-white mt-3">
@@ -118,12 +121,14 @@
                             og flere af de lokale, højt elskede drinks,
                             så som Gammel have og Gin Hass.</p>
                     </div>
+<!-- Billede 2 -->
                     <div class="col-md-6 mt-3 mb-1 img2">
                         <img class="pic-1" src="images/Øl.JPG">
                     </div>
                 </div>
             </div>
         <br><br>
+<!-- Tekstboks 3-->
             <div class="container">
                 <div class="row pb-5 ">
                     <div class="col-md-6 box1 text-white mt-3">
@@ -134,6 +139,7 @@
                             delikatesser, som vil gå godt til
                             vin, øl eller drinks.</p>
                     </div>
+<!-- Billede 3-->
                     <div class="col-md-6 mt-3 mb-1 img2">
                         <img class="pic-1" src="images/Snacks.jpg">
                     </div>
@@ -163,6 +169,13 @@
 
         </div>
     </div>
+
+<!--JAVASCRIPT TIL BURGERMENUEN-->
+<script>
+    const toggle = document.querySelector('.toggle');
+    const nav = document.querySelector('.nav');
+    toggle.addEventListener('click', () => nav.classList.toggle('show'));
+</script>
 
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
