@@ -193,9 +193,7 @@ img {
   font-size: 70px;
   font-family: Poppins Regular;
 }
-.gap100{
-  padding: 70px 0px;
-}
+
 .box1{
   background-color: #1C1A19;
   border-radius: 25px;
@@ -211,6 +209,8 @@ img {
   background-size: contain;
   background-repeat: repeat;
   width: 100%;
+  filter: drop-shadow(0px 2px 10px #090607);
+
 }
 h2_tekst{
   font-size: 45px;
