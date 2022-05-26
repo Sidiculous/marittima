@@ -20,7 +20,6 @@
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="https://kit.fontawesome.com/bec1504de8.js" crossorigin="anonymous"></script>
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,7 +42,7 @@
         <!--LOGO-->
         <div class="col-6 col-lg-3">
             <a href="index.html">
-                <img src="images/logo_navn.png" class="header_logo" alt="Vinoteque Marittima">
+                <img src="images/logo_navn.png" class="header_logo ps-1 py-1" alt="Vinoteque Marittima">
             </a>
         </div>
 
@@ -78,71 +77,77 @@
 
 
 <!--INDHOLD-->
-<h1 class="my-5 text-center">Selskabslokaler</h1>
+<h1 class="my-5 text-center side_titel">Selskabslokaler</h1>
 
-    <!--CAROUSEL 1-->
-    <div class="container-fluid container_pic_wood selskabslokaler_carousel1">
-
-        <div id="carouselExampleCaptions" class="carousel slide py-5" data-bs-ride="carousel">
-
-            <!--CAROUSEL INDICATORS-->
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<!--CAROUSEL 1-->
+<div class="container-fluid m-0 p-0 g-0 my-5">
+    <div class="row g-0 p-0 m-0 container_pic_wood ">
+        <div class="col-12 p-0 m-0 g-0 d-flex justify-content-center align-items-center ">
+            <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="false">
+                <div class="carousel-indicators ">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner ">
+                    <div class="carousel-item active ">
+                        <img src="images/oevre_daek_1.JPG" class="resize_carousel_pic" alt="Øvre dæk 1" style="object-fit: cover">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="text-start mb-3 carousel_tekst">Øvre dæk</h1>
+                            <p class="text-start w-50 fs-5 carousel_tekst">Hele det øvre dæk er indrettet som festlokaler. Der er plads til 70 siddende gæster. Lokalet har også egen bar, samt toilet.</p>
+                        </div>
+                        <div class="carousel-caption d-md-none p-0">
+                            <p class="text-start mb-1 fs-6 carousel_tekst">Øvre dæk</p>
+                            <p class="text-start w-50 custom-font-size-xs carousel_tekst">Hele det øvre dæk er indrettet som festlokaler. Der er plads til 70 siddende gæster. Lokalet har også egen bar, samt toilet.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/oevre_daek_2.JPG" class="resize_carousel_pic" alt="Øvre dæk 2" style="object-fit: cover">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="text-start mb-3 carousel_tekst">PLACEHOLDER 2</h1>
+                            <p class="text-start w-50 fs-5 carousel_tekst">Lorem ipsum whatever blah blah blah</p>
+                        </div>
+                        <div class="carousel-caption d-md-none p-0">
+                            <p class="text-start mb-1 fs-6 carousel_tekst">PLACEHOLDER 2</p>
+                            <p class="text-start w-50 custom-font-size-xs carousel_tekst">Lorem ipsum whatever blah blah blah</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/oevre_daek_3.JPG" class="resize_carousel_pic" alt="Øvre dæk 3" style="object-fit: cover">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="text-start mb-3 carousel_tekst">PLACEHOLDER 3</h1>
+                            <p class="text-start w-50 fs-5 carousel_tekst">Lorem ipsum whatever blah blah blah</p>
+                        </div>
+                        <div class="carousel-caption d-md-none p-0">
+                            <p class="text-start mb-1 fs-6 carousel_tekst">PLACEHOLDER 3</p>
+                            <p class="text-start w-50 custom-font-size-xs carousel_tekst">Lorem ipsum whatever blah blah blah</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-
-            <!--CAROUSEL INDHOLD-->
-            <div class="carousel-inner">
-
-                <div class="carousel-item active mb-3">
-                    <img src="images/ugens_vin.png" class="d-block mx-auto selskabslokaler_carousel_img" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="selskabslokaler_carousel_tekst">First slide label</h5>
-                        <p class="selskabslokaler_carousel_tekst">Some representative placeholder content for the first slide.</p>
-                    </div>
-                </div>
-
-                <div class="carousel-item mb-3">
-                    <img src="images/marittima_front_pic.JPG" class="d-block mx-auto selskabslokaler_carousel_img" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="selskabslokaler_carousel_tekst">Second slide label</h5>
-                        <p class="selskabslokaler_carousel_tekst">Some representative placeholder content for the second slide.</p>
-                    </div>
-                </div>
-
-                <div class="carousel-item mb-3">
-                    <img src="images/marittima_ship.jpg" class="d-block mx-auto selskabslokaler_carousel_img" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="selskabslokaler_carousel_tekst">Third slide label</h5>
-                        <p class="selskabslokaler_carousel_tekst">Some representative placeholder content for the third slide.</p>
-                    </div>
-                </div>
-
-            </div>
-
-            <!--CAROUSEL KNAPPER-->
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-
         </div>
-
     </div>
+</div>
 
-
-    <!--JAVASCRIPT TIL BURGERMENUEN-->
-    <script>
-        const toggle = document.querySelector('.toggle');
-        const nav = document.querySelector('.nav');
-        toggle.addEventListener('click', () => nav.classList.toggle('show'));
-    </script>
-
+<!--BRØDTEKST-->
+<div class="container">
+    <h2 class="mb-2">Fest, konfirmation og bryllup</h2>
+    <p class="mb-5">
+        På øvre dæk finder vi selskabslokalet. Lokalet er indrettet til, at der kan sidde 70 gæster.
+        Lokalerne er lyse og med havudsigt det meste af vejen rundt.
+        I selskabslokalerne finde også en bar og separat toilet.
+        På samme dæk findes også roret, hvor kaptajnen i sin tid har stået og styret båden.
+        Dette er med til at sætte den rigtige stemning, når man sidder og nyder udsigten over Nykøbing Falster havn.
+    </p>
+</div>
 
     <!-- Footer -->
     <div class="container-fluid">
@@ -165,6 +170,12 @@
         </div>
     </div>
 
+    <!--JAVASCRIPT TIL BURGERMENUEN-->
+    <script>
+        const toggle = document.querySelector('.toggle');
+        const nav = document.querySelector('.nav');
+        toggle.addEventListener('click', () => nav.classList.toggle('show'));
+    </script>
 
     <!--BOOTSTRAP-->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
