@@ -35,11 +35,51 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
+<!--HEADER-->
+<div class="container-fluid bg-light">
+
+    <div class="row navbar align-items-center">
+
+        <!--LOGO-->
+        <div class="col-6 col-lg-3">
+            <a href="index.html">
+                <img src="images/logo_navn.png" class="header_logo ps-1 py-1" alt="Vinoteque Marittima">
+            </a>
+        </div>
+
+        <!--BURGERMENU - MOBIL & TABLET-->
+        <div class="col-6 d-lg-none">
+            <div class="burger my-auto">
+                <img src="images/bars-solid.svg" alt="Burgermenu" class="toggle burger_icon float-end me-3">
+            </div>
+        </div>
+        <div class="nav col-12 d-lg-none">
+            <div class="row text-center mx-auto">
+                <div class="col-12 p-3"><a href="menu.html" class="nav_text nav_current">MENU</a></div>
+                <div class="col-12 p-3"><a href="begivenheder.html" class="nav_text">BEGIVENHEDER</a></div>
+                <div class="col-12 p-3"><a href="selskabslokaler.html" class="nav_text">SELSKABSLOKALER</a></div>
+                <div class="col-12 p-3"><a href="om_os.html" class="nav_text">OM OS</a></div>
+            </div>
+        </div>
+
+        <!--NAVBAR - DESKTOP-->
+        <div class="col-lg-8 d-none d-lg-block">
+            <div class="row justify-content-end text-center text-lg-start">
+                <div class="col-lg-auto p-3"><a href="menu.html" class="nav_text nav_current">MENU</a></div>
+                <div class="col-lg-auto p-3"><a href="begivenheder.html" class="nav_text">BEGIVENHEDER</a></div>
+                <div class="col-lg-auto p-3"><a href="selskabslokaler.html" class="nav_text">SELSKABSLOKALER</a></div>
+                <div class="col-lg-auto p-3 pe-lg-5"><a href="om_os.html" class="nav_text">OM OS</a></div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
     <!-- Forbundet med "Gå til toppen," som er en del af footeren-->
     <a id="top"></a>
 
 <!-- -->
-
 <!-- Her er overskriften på menusiden -->
 
 <div class="container-fluid">
@@ -50,9 +90,10 @@
     </div>
 </div>
 
-<!-- -->
+<!-- Dette her det generelle indhold på siden -->
 <section>
     <div class="wood-bg container-fluid">
+<!-- Tekstboks 1 -->
             <div class="container pt-5">
                 <div class="row">
                     <div class=" col-md-6 box1 text-white mt-3">
@@ -61,14 +102,16 @@
                             altid er noget for enhver smag. Vi bestræber os efter altid
                             at være så lokale som muligt. Høj kvalitet og god stemning
                             er første prioritet hos os, og det ses når man går ombord
-                            og udforsker det store vinkort</p>
+                            og udforsker det store vinkort.</p>
                     </div>
+<!-- billede 1 -->
                     <div class="col-md-6 mt-3 mb-1 img1">
                         <img class="pic-1" src="images/vin.JPG">
                     </div>
                 </div>
             </div>
         <br><br>
+<!-- Tekstboks 2 -->
             <div class="container">
                 <div class="row d-flex flex-row-reverse">
                     <div class="col-md-6 box1 text-white mt-3">
@@ -78,12 +121,14 @@
                             og flere af de lokale, højt elskede drinks,
                             så som Gammel have og Gin Hass.</p>
                     </div>
+<!-- Billede 2 -->
                     <div class="col-md-6 mt-3 mb-1 img2">
                         <img class="pic-1" src="images/Øl.JPG">
                     </div>
                 </div>
             </div>
         <br><br>
+<!-- Tekstboks 3-->
             <div class="container">
                 <div class="row pb-5 ">
                     <div class="col-md-6 box1 text-white mt-3">
@@ -94,6 +139,7 @@
                             delikatesser, som vil gå godt til
                             vin, øl eller drinks.</p>
                     </div>
+<!-- Billede 3-->
                     <div class="col-md-6 mt-3 mb-1 img2">
                         <img class="pic-1" src="images/Snacks.jpg">
                     </div>
@@ -123,6 +169,13 @@
 
         </div>
     </div>
+
+<!--JAVASCRIPT TIL BURGERMENUEN-->
+<script>
+    const toggle = document.querySelector('.toggle');
+    const nav = document.querySelector('.nav');
+    toggle.addEventListener('click', () => nav.classList.toggle('show'));
+</script>
 
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
