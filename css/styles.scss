@@ -495,13 +495,24 @@ font-size: 1.1rem;
   height: 10vh;
 }
 
+.direction_reverse{
+  flex-direction: row-reverse;
+}
+
 .text_decoration_none{
   text-decoration: none;
+}
+
+.border_none{
+  border: none;
+}
+
+.cta_btn{
   color: white;
 }
 
-.direction_reverse{
-  flex-direction: row-reverse;
+.cta_btn:hover{
+  color: rgb(116,14,38);
 }
 
 
