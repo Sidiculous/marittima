@@ -6,6 +6,7 @@
 
 <!-- I <head> har man opsætning - det ser brugeren ikke, men det fortæller noget om siden -->
 <head>
+    <!-- Sikrer at skrifttypen "Poppins" kan vises på alle enheder -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -18,8 +19,13 @@
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
-    <meta name="author" content="Udgiver">
-    <meta name="copyright" content="Information om copyright">
+    <meta name="author" content="Mads, Christian, Sidney, Sigurd og Amanda. MMD 2021">
+    <meta name="copyright" content="Mads, Christian, Sidney, Sigurd og Amanda. MMD 2021. All Rights reserved.">
+    <meta name="description" content="This webpage is about a new danish wine bar located at the harbor of Nykøbing Falster. The main purpose of the website is to promote and inform people about the new wine bar.">
+    <meta name="theme-color" content="#ffffff"/>
+
+    <!--Sikre at iOS bruger det rigtige billede, hvis en Home Screen genvej skabes-->
+    <link rel="apple-touch-icon" href="images/marittima_front_pic.JPG">
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -27,10 +33,6 @@
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
 
     <!-- Link til Font Awesome -->
     <script src="https://kit.fontawesome.com/df35710484.js" crossorigin="anonymous"></script>
@@ -112,7 +114,7 @@
                     </div>
 <!-- billede 1 -->
                     <div class="col-md-6 mt-3 mb-1 img1">
-                        <img class="pic-1" src="images/vin.JPG">
+                        <img class="pic-1" src="images/vin.JPG" alt="Glas med rødvin">
                     </div>
                 </div>
             </div>
@@ -129,7 +131,7 @@
                     </div>
 <!-- Billede 2 -->
                     <div class="col-md-6 mt-3 mb-1 img2">
-                        <img class="pic-1" src="images/Øl.JPG">
+                        <img class="pic-1" src="images/Øl.JPG" alt="Fadøl som bliver skænkede op">
                     </div>
                 </div>
             </div>
@@ -147,7 +149,7 @@
                     </div>
 <!-- Billede 3-->
                     <div class="col-md-6 mt-3 mb-1 img2">
-                        <img class="pic-1" src="images/Snacks.jpg">
+                        <img class="pic-1" src="images/Snacks.jpg" alt="Bord med forskellige snacks">
                     </div>
                 </div>
             </div>
