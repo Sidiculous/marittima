@@ -134,7 +134,14 @@ img {
 .resize_carousel_pic{
   width: 100vw;
   max-height: 500px;
+}
 
+.layered-image {
+  width: 100vw;
+  height: 500px;
+  position: absolute;
+  z-index: 0;
+  background: linear-gradient(to left, transparent, black);
 }
 
 .carousel-control-prev{
@@ -177,6 +184,7 @@ img {
 .gray-color{
   background-color: #1C1A19;
 }
+
 
 
 
