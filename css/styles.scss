@@ -172,6 +172,9 @@ img {
   background-color: #b3a381;
   border: none;
 }
+.cta-phone:hover{
+  color: rgb(116,14,38);
+}
 .cta-phone-text{
   text-decoration: none;
   color: white;
@@ -345,6 +348,9 @@ img {
 .container_fillertekst{
   color: white;
 }
+.container_buttonbox:hover{
+  color: rgb(116,14,38);
+}
 .container_button{
   background-color: #dfd0b0;
   height: 35px;
@@ -379,8 +385,6 @@ img {
 
   .regular_skriftsm{
 font-size: 1.1rem;
-    margin: 0 50px 0 50px;
-    padding: 30px;
   }
   .container_textbox1{
     padding: 30px;
@@ -405,7 +409,7 @@ font-size: 1.1rem;
     width: 30vh;
   }
   .container_billede{
-    padding: 0 0 0 100px;
+
   }
   .container_textbox1{
     padding: 30px;
@@ -446,8 +450,6 @@ font-size: 1.1rem;
 }
   .regular_skrift{
   font-size: 1.3rem;
-   margin: 0 50px 0 50px;
-    padding: 50px;
   }
   .container_textbox1{
     padding: 0 150px 0 150px;
@@ -533,6 +535,10 @@ font-size: 1.1rem;
 
 .border_none{
   border: none;
+}
+
+.cta_box:hover{
+  color: rgb(116,14,38);
 }
 
 .cta_btn{
