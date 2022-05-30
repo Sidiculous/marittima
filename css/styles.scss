@@ -343,12 +343,6 @@ img {
   border-radius: 30px;
   filter: drop-shadow(0px 2px 10px #090607);
 }
-.container_opmærksomtekst{
-  color: white;
-}
-.container_fillertekst{
-  color: white;
-}
 .container_buttonbox:hover{
   color: rgb(116,14,38);
 }
@@ -369,9 +363,6 @@ img {
 }
 .bold-skrift{
   font-weight: bold;
-}
-.regular_skrift{
-
 }
 .bold-skriftxl{
   padding: 0 0 0 10px;
@@ -439,9 +430,6 @@ font-size: 1.1rem;
     border-radius: 30px;
     top: 30px;
   }
-  .container_buttonbox{
-    padding: 100px;
-  }
   .container_button{
     width: 400px;
     height: 40px;
@@ -457,7 +445,6 @@ font-size: 1.1rem;
   }
   .bold-skrift_box{
     font-size: 1.8rem;
-    padding: 40px;
   }
   .container_textbox2{
     margin: 80px 0 70px 0;
