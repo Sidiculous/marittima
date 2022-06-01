@@ -64,9 +64,10 @@
         </div>
         <div class="nav col-12 d-lg-none">
             <div class="row text-center mx-auto">
+                <div class="col-12 p-3"><a href="index.html" class="nav_text">FORSIDE</a></div>
                 <div class="col-12 p-3"><a href="menu.html" class="nav_text">MENU</a></div>
                 <div class="col-12 p-3"><a href="begivenheder.html" class="nav_text">BEGIVENHEDER</a></div>
-                <div class="col-12 p-3"><a href="selskabslokaler.html" class="nav_text  nav_current">SELSKABSLOKALER</a></div>
+                <div class="col-12 p-3"><a href="selskabslokaler.html" class="nav_text">SELSKABSLOKALER</a></div>
                 <div class="col-12 p-3"><a href="om_os.html" class="nav_text">OM OS</a></div>
             </div>
         </div>
@@ -74,9 +75,10 @@
         <!--NAVBAR - DESKTOP-->
         <div class="col-lg-8 d-none d-lg-block">
             <div class="row justify-content-end text-center text-lg-start me-lg-5">
+                <div class="col-lg-auto p-3"><a href="index.html" class="nav_text">FORSIDE</a></div>
                 <div class="col-lg-auto p-3"><a href="menu.html" class="nav_text">MENU</a></div>
                 <div class="col-lg-auto p-3"><a href="begivenheder.html" class="nav_text">BEGIVENHEDER</a></div>
-                <div class="col-lg-auto p-3"><a href="selskabslokaler.html" class="nav_text nav_current">SELSKABSLOKALER</a></div>
+                <div class="col-lg-auto p-3"><a href="selskabslokaler.html" class="nav_text">SELSKABSLOKALER</a></div>
                 <div class="col-lg-auto p-3"><a href="om_os.html" class="nav_text">OM OS</a></div>
             </div>
         </div>
@@ -206,43 +208,86 @@
 </div>
 
 
-    <!-- Footer -->
-    <div class="container-fluid">
-
-        <!-- Boks som indeholder footer elementer -->
-        <div class="row bg-boxColor text-white text-center p-5">
-
+<!-- Footer -->
+<div class="container-fluid d-lg-none">
+    <!-- Boks som indeholder footer elementer -->
+    <div class="row bg-boxColor text-white text-center p-5">
+        <div class="col-12 d-flex flex-column align-items-center">
             <!-- "Gå til toppen" funktion -->
-            <div>
-                <a class="footer_tekst" href="#top">Gå til toppen <i class="fas fa-arrow-up"></i></a>
-            </div>
+            <a class="footer_tekst mb-5" href="#top">Gå til toppen <i class="fas fa-arrow-up"></i></a>
 
             <!-- Logo -->
-            <a class="py-4 footer_logo mx-auto" href="index.html">
-                <img src="images/logo_marittima_text_white.svg" alt="Marittima logo">
-            </a>
-
-            <!-- Kontaktinfo funktioner -->
-            <div class="row align-items-center justify-content-lg-evenly">
-
-                <div class="col-lg">
-                    <a class="footer_tekst" href="tel:+4554850355"><i class="fas fa-phone"></i> +45 54 85 03 55</a>
-                </div>
-
-                <div class="col-lg my-2">
-                    <a class="footer_tekst" href="mailto:m@rius.dk"><i class="fas fa-envelope"></i> vinoteque-m@rius.dk</a>
-                </div>
-
-                <!-- Dette link skal linke til Marittimas Facebookside, når Jes opretter den -->
-                 <div class="col-lg">
-                    <a class="footer_tekst" href="https://www.facebook.com/marius.mortensen.eftf" target="_blank">
-                        <i class="fa-brands fa-facebook"></i> facebook.com/marittima</a>
-                 </div>
+            <div class="d-sm-none col-9 mb-5">
+                <a class="py-4 footer_logo mx-auto" href="index.html">
+                    <img src="images/logo_marittima_text_white.svg" alt="Marittima logo">
+                </a>
+            </div>
+            <div class="d-none d-sm-block col-4 mb-5">
+                <a class="py-4 footer_logo mx-auto" href="index.html">
+                    <img src="images/logo_marittima_text_white.svg" alt="Marittima logo">
+                </a>
             </div>
 
+            <!-- Kontaktinfo funktioner -->
+            <a class="footer_tekst mb-1" href="tel:+4554850355"><i class="fas fa-phone"></i> +45 54 85 03 55</a>
+
+            <a class="footer_tekst mb-1" href="mailto:m@rius.dk"><i class="fas fa-envelope"></i> vinoteque-m@rius.dk</a>
+
+            <!-- Dette link skal linke til Marittimas Facebookside, når Jes opretter den -->
+            <a class="footer_tekst mb-5" href="https://www.facebook.com/marius.mortensen.eftf" target="_blank">
+                <i class="fa-brands fa-facebook"></i> facebook.com/marittima</a>
+
+            <!--                    Overskrift i form af paragraf-->
+            <p class="text-white fs-4">Åbningstider</p>
+            <!--                    Paragraf-->
+            <p class="text-white">
+                Onsdage fra kl. 16 til kl. 22<br>
+                Torsdage fra kl. 16 til kl. 22<br>
+                Fredage fra kl. 16 til kl. 23<br>
+                Lørdage fra kl. 14 til kl. 23.<br>
+            </p>
         </div>
     </div>
+</div>
 
+<div class="container-fluid d-none d-lg-block">
+
+    <!-- Boks som indeholder footer elementer -->
+    <div class="row bg-boxColor text-white text-center justify-content-between p-5 align-items-center">
+
+        <div class="col-3 d-flex flex-column text-end">
+            <a class="footer_tekst" href="tel:+4554850355">+45 54 85 03 55<i class="fas fa-phone ms-2"></i></a>
+
+            <a class="footer_tekst" href="mailto:m@rius.dk">vinoteque-m@rius.dk<i class="fas fa-envelope ms-2"></i></a>
+
+            <!-- Dette link skal linke til Marittimas Facebookside, når Jes opretter den -->
+            <a class="footer_tekst" href="https://www.facebook.com/marius.mortensen.eftf" target="_blank">
+                facebook.com/marittima<i class="fa-brands fa-facebook ms-2"></i></a>
+        </div>
+
+        <div class="col-6">
+            <!-- "Gå til toppen" funktion -->
+            <a class="footer_tekst" href="#top">Gå til toppen <i class="fas fa-arrow-up"></i></a>
+
+            <!-- Logo -->
+            <a class="my-4 footer_logo mx-auto d-flex justify-content-center" href="index.html">
+                <img src="images/logo_marittima_text_white.svg" alt="Marittima logo">
+            </a>
+        </div>
+
+        <div class="col-3 text-start">
+            <!-- Overskrift i form af paragraf -->
+            <p class="text-white fs-4">Åbningstider</p>
+            <!-- Paragraf -->
+            <p class="text-white">
+                Onsdage fra kl. 16 til kl. 22<br>
+                Torsdage fra kl. 16 til kl. 22<br>
+                Fredage fra kl. 16 til kl. 23<br>
+                Lørdage fra kl. 14 til kl. 23<br>
+            </p>
+        </div>
+    </div>
+</div>
 
     <!--JAVASCRIPT TIL BURGERMENUEN-->
     <script>
