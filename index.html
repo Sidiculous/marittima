@@ -90,7 +90,11 @@
 <!--Videoen som bliver vist i toppen af forsiden (under nav-baren)-->
 <div class="position-relative vidbox shadow">
 <!--    Selve videoen-->
-    <video class="video1" src="images/video_front_page.webm" autoplay muted loop ></video>
+    <video class="video1" autoplay muted loop >
+        <source src="images/video_front_page.webm" type="video/webm">
+        <source src="images/video_front_page_mp4.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
 <!--    Div som holder container til logo-->
     <div class="position-absolute w-100">
 <!--        Container som holder på logo-->
